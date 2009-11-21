@@ -2,7 +2,7 @@ Partioprint
 ===========
 Partioprint plugin adds partial name as a html comment whenever a partial is rendered from the erbs.
 
-Implemented upon idea by Arnab Chakrborthy (@arnabc on Twitter)
+Implemented upon idea by Arnab Chakraborty (@arnabc on Twitter)
 
 Use it
 ------
