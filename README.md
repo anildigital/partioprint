@@ -4,11 +4,11 @@ Partioprint plugin adds partial name as a HTML comment whenever a partial is ren
 
 Partioprint adds two comments tag before and after the partial output. Below is the example
 
-<code>
+
 <!-- ERB:START /shared/header -->
 <div class="head">...</div>
 <!-- ERB:END /shared/header -->
-</code>
+
 
 
 Implemented upon idea by Arnab Chakraborty (@arnabc on Twitter)
