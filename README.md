@@ -23,6 +23,13 @@ For Firebug users click on the down-arrow icon in HTML tab and enable 'Show Comm
 
 Note: This plugin might cause your webpage to render in quirks mode if you have a different partial to render DOCTYPEs.
 
+Rave Reviews
+------------
+
+"Looks cool. We have something similar internally at 37signals. Good to see it released." - @dhh
+
+"It looks cool, will definitely use it for one of my client projects" - @technoweenie
+
 Author
 ------
 Anil Wadghule :: anildigital@gmail.com :: @anildigital :: http://anilwadghule.com
