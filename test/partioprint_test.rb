@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'test/unit'
-require 'actionpack'
+require 'active_support'
+require 'action_pack'
 require 'action_controller'
 require 'action_view'
 require '../lib/partioprint'
