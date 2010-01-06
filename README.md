@@ -30,6 +30,12 @@ Rave Reviews
 
 "It looks cool, will definitely use it for one of my client projects" - @technoweenie
 
+"Just stumbled upon Rails plugin partioprint. Incredibly valuable 20 LOC. Gonna add it to all projects" - @codecuisine
+
+http://railsenvy.com/2009/12/18/episode-103 - Highlighted in Rails Envy Podcast
+
+http://afreshcup.com/home/2009/11/26/double-shot-592.html - Highlighted in Mike Gunderloy's A Fresh Cup
+
 Author
 ------
 Anil Wadghule :: anildigital@gmail.com :: @anildigital :: http://anilwadghule.com
