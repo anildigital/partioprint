@@ -5,11 +5,11 @@ module ActionView
       partial_name = options[:partial]
       result = render_partial_without_print(options)
 
-      if result !~ /^\s*<(!DOCTYPE|html)/
-        result = "<!-- ERB:START partial: #{partial_name} -->\n" + result + "\n<!-- ERB:END partial: #{partial_name} -->" 
+      if result && result !~ /^\s*<(!DOCTYPE|html)/
+        result = "<!-- ERB:START partial: #{partial_name} -->\n" + result + "\n<!-- ERB:END partial: #{partial_name} -->"
       end
 
-      return result
+      result
     end
 
     alias_method :render_partial_without_print, :render_partial
