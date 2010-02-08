@@ -1,9 +1,9 @@
 module ActionView
   module Partials
 
-    def render_partial_with_print(options = {})
-      partial_name = options[:partial]
-      result = render_partial_without_print(options)
+    def render_partial_with_print(partial_path, object_assigns = nil, local_assigns = {})
+      partial_name = partial_path
+      result = render_partial_without_print(partial_path, object_assigns, local_assigns)
 
       if result && result !~ /^\s*<(!DOCTYPE|html)/
         result = "<!-- ERB:START partial: #{partial_name} -->\n" + result + "\n<!-- ERB:END partial: #{partial_name} -->"
