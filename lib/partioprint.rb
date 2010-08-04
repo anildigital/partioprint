@@ -19,7 +19,7 @@ module ActionView
       end
 
       result = printer.to_s
-      result.respond_to(:html_safe) ? result.html_safe : result
+      result.respond_to?(:html_safe) ? result.html_safe : result
     end
 
     alias_method :render_partial_without_print, :render_partial
