@@ -15,7 +15,7 @@ Use it
 ------
 ```gem install partioprint```
 
-Note: This plugin might cause your webpage to render in quirks mode if you have a different partial to render DOCTYPEs.
+Note: This gem might cause your webpage to render in quirks mode if you have a different partial to render DOCTYPEs.
 
 Rave Reviews
 ------------
